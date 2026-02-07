@@ -63,7 +63,7 @@ A **T-learner** is used:
 - Compute uplift score:
 
 $$
-\mathrm{uplift\_reduction}(x) = p_0(x) - p_1(x)
+\mathrm{uplift\space reduction}(x) = p_0(x) - p_1(x)
 $$
 
 Positive score means outreach is expected to reduce churn for that member.
