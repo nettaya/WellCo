@@ -63,7 +63,7 @@ A **T-learner** is used:
 - Compute uplift score:
 
 $$
-\text{uplift\_reduction}(x) = p_0(x) - p_1(x)
+\mathrm{uplift\_reduction}(x) = p_0(x) - p_1(x)
 $$
 
 Positive score means outreach is expected to reduce churn for that member.
@@ -100,7 +100,7 @@ Why these metrics:
 For sorted uplift scores \(u_{(i)}\), choose `n` that maximizes:
 
 $$
-\text{Net}(n) = \sum_{i=1}^{n} u_{(i)} - c \cdot n
+\mathrm{Net}(n) = \sum_{i=1}^{n} u_{(i)} - c \cdot n
 $$
 
 Where:
