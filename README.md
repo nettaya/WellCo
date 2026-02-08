@@ -97,7 +97,7 @@ Why these metrics:
 ## 6. Selecting Outreach Size `n`
 
 ### 6.1 Decision objective
-For sorted uplift scores \(u_{(i)}\), choose `n` that maximizes:
+For sorted uplift scores u(i), choose `n` that maximizes:
 
 $$
 \mathrm{Net}(n) = \sum_{i=1}^{n} u_{(i)} - c \cdot n

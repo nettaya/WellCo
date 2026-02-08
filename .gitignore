@@ -1,5 +1,5 @@
 __pycache__/
 *.pyc
 .venv/
-outputs/
 preprocessed_data/
+.DS_Store
